@@ -255,10 +255,10 @@ Custom SVM built with:
 
 | Kernel               | Formula (simplified)                                         |
 |----------------------|--------------------------------------------------------------|
-| Linear               | \( K(x, y) = x \cdot y \)                                    |
-| Gaussian (RBF)       | \( K(x, y) = \exp(-\gamma \|x - y\|^2) \)                   |
-| Polynomial           | \( K(x, y) = (x \cdot y + c)^{d} \)                          |
-| Sigmoid              | \( K(x, y) = \tanh(\alpha x \cdot y + c) \)                  |
+| Linear               |    K(x, y) = x · y                                           |
+| Gaussian (RBF)       |    K(x, y) = exp(-γ ||x - y||²)                              |
+| Polynomial           |    K(x, y) = (x · y + c)^d                                   |
+| Sigmoid              |    K(x, y) = tanh(α (x · y) + c)                             |
 
 
 
@@ -350,7 +350,6 @@ Best: ~91.56% (C=100, gamma=0.01)
 ---
 
 # 🤖 Neural Networks & Deep Learning – Assignment 3
-
 ### 📌 Title: Multiclass Classification using RBF Neural Network (CIFAR-10)
 
 ---
@@ -444,10 +443,8 @@ Classes are **not linearly separable** in 2D/3D → High-dimensional features re
 
 1. **Initialize centers:**
    - **KMeans clustering** on training data
-   - Common formula for spread:  
-   \[
-   \sigma = \frac{\text{maxDistance}}{\sqrt{2 \times \text{numCenters}}}
-   \]
+   - Common formula for spread:  `σ = maxDistance / sqrt(2 × numCenters)`
+
 
 2. **Initial Weights:**
    - Using **pseudo-inverse** of RBF kernel output.
@@ -593,10 +590,7 @@ Classes are **not linearly separable** in 2D/3D → High-dimensional features re
 
 1. **Initialize centers:**
    - **KMeans clustering** on training data
-   - Common formula for spread:  
-   \[
-   \sigma = \frac{\text{maxDistance}}{\sqrt{2 \times \text{numCenters}}}
-   \]
+   - Common formula for spread:  `σ = maxDistance / sqrt(2 × numCenters)`
 
 2. **Initial Weights:**
    - Using **pseudo-inverse** of RBF kernel output.
