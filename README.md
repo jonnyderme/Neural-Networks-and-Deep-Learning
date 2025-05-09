@@ -13,6 +13,46 @@ Electronics and Computers Department
 🏛️ *Faculty:* AUTh - School of Electrical and Computer Engineering  
 📅 *Semester:* 9th Semester, 2023–2024
 
+---
+
+## 📚 Table of Contents
+
+### 📝 Introduction
+- [📖 Overview](#-overview)
+- [📂 Dataset](#-dataset)
+- [🔬 Preprocessing & PCA](#-preprocessing--pca)
+- [📊 2D & 3D Visualization](#-2d--3d-visualization-using-pca)
+
+### 🤖 Baseline Classifiers
+- [🟢 KNN & Nearest Centroid](#-knn-and-nearest-centroid-classifiers)
+  - [✅ KNN (k=1)](#-knn--nearest-neighbor-with-k-1-neighbor)
+  - [✅ KNN (k=3)](#-knn--nearest-neighbor-with-k3-neighbors)
+  - [✅ Nearest Centroid (Euclidean)](#-nearest-centroid-with-euclidean-distance)
+  - [✅ Nearest Centroid (Manhattan)](#-nearest-centroid-with-manhattan-distance)
+
+### 🧠 RBF Neural Network
+- [🎯 Architecture](#-rbf-neural-network)
+- [🛠️ Key Functions](#-key-functions)
+  - [`rbfKernel`](#-rbfkernel-)
+  - [`rbfKernelDerivative`](#-rbfkernelderivative-)
+  - [`MSE`](#-mse-)
+  - [`f1Score`](#-f1score-)
+- [⚙️ Training & Testing](#-rbf-implementation)
+- [📈 Results & Metrics](#-results)
+  - [🔢 Varying Centers](#-different-number-of-centers)
+  - [🌀 Confusion Matrix](#-confusion-matrix)
+  - [✅ Example Predictions](#-example-predictions)
+  
+### 🔍 Observations & Insights
+- [📊 Performance Summary](#-performance-summary)
+- [📝 Final Remarks](#-general-observations)
+
+### 📂 Files
+- [🗂️ Repository Structure](#-repository-structure)
+
+### 🤝 Contributor
+- [👤 Ioannis Deirmentzoglou](#-contributor)
+
 
 ---
 
