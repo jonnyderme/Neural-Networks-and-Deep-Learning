@@ -254,7 +254,7 @@ Custom SVM built with:
 - **Grid Search + 5-Fold Cross Validation**
 - Dataset: Breast Cancer Wisconsin
 
-### A️⃣ Linear Kernel
+###   Linear Kernel
 
 | C        | Accuracy |
 |----------|----------|
@@ -265,7 +265,7 @@ Custom SVM built with:
 | 1000     | 92.45%   |
 | 10e3     | 91.45%   |
 
-### B️⃣ RBF Kernel
+###  RBF Kernel
 
 | C    | Gamma | Accuracy |
 |-------|--------|----------|
@@ -277,7 +277,7 @@ Custom SVM built with:
 
 Best: ~91.56% (C=100, gamma=0.01)
 
-### C️⃣ Polynomial Kernel
+###  Polynomial Kernel
 
 | C    | Degree | Constant | Accuracy |
 |-------|--------|----------|----------|
@@ -312,10 +312,6 @@ Best: ~91.56% (C=100, gamma=0.01)
 # 🤖 Neural Networks & Deep Learning – Assignment 3
 
 ### 📌 Title: Multiclass Classification using RBF Neural Network (CIFAR-10)
-
-📅 Semester: 2023–2024  
-🏛️ Institution: AUTh – School of Electrical and Computer Engineering  
-👨‍💻 Student: Ioannis Deirmentzoglou (AEM: 10015)
 
 ---
 
