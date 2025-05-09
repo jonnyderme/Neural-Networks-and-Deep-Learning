@@ -641,7 +641,36 @@ Classes are **not linearly separable** in 2D/3D → High-dimensional features re
 
 
 ---
+# Files
 
+
+```
+## 📁 Repository Structure
+
+├── README.md                            # Project overview and documentation for all assignments
+
+├── Assignment_1/                        # Assignment 1: Triangle Filling
+│   ├── Instructions/Instructions.pdf    # Official assignment instructions
+│   ├── Notebook/Assignment_1.ipynb      # Jupyter notebook: implementation and demos
+│   └── Report_Assignment_1.pdf          # Detailed report and analysis for Assignment 1
+
+├── Assignment_2/                        # Assignment 2: Transformations & Projections
+│   ├── Instructions/Instructions.pdf    # Assignment guidelines and details
+│   ├── Notebook/Assignment_2.ipynb      # Jupyter notebook for 3D transformations and projections
+│   └── Report_Assignment_2.pdf          # Detailed report for Assignment 2
+
+├── Assignment_3/                        # Assignment 3: Viewing & Shading
+│   ├── Instructions/Instructions.pdf    # Assignment instructions and requirements
+│   ├── Notebook/Assignment_3.ipynb      # Full implementation: rendering pipeline and shading
+│   └── Report_Assignment_3.pdf          # Detailed report for Assignment 3
+
+├── Presentation/
+│   └── Deirmentzoglou_Ioannis_Presentation.pptx   # Slide deck summarizing work and results
+
+```
+
+
+---
 
 ## 🤝 Contributor
 
